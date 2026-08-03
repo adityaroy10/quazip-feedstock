@@ -10,7 +10,7 @@ source:
   sha256: 5240f4a3475648773ba10af8b0ebe549cbfc5d6de00470a517330a80068a4f78
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('quazip', max_pin='x') }}
